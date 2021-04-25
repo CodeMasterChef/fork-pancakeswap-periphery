@@ -16,13 +16,9 @@ npm run compile
 ## Migrate Contracts:
 Local:
 ```
-npm run migrate
+npm run migrate:development
 ```
 BSC Testnet:
 ```
-npm run migrate:testnet
-```
-## Run Tests:
-```
-npm run test
+npm run migrate:bsctestnet
 ```
