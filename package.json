@@ -1,7 +1,7 @@
 {
-  "name": "fork-pancakeswap-core",
+  "name": "fork-pancakeswap-periphery",
   "version": "1.0.0",
-  "description": "This is PancakeSwap Factory which forked from https://github.com/pancakeswap/pancake-swap-core.",
+  "description": "This is PancakeSwap Factory which forked from https://github.com/pancakeswap/pancake-swap-periphery",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -9,16 +9,21 @@
   "scripts": {
     "compile": "truffle compile",
     "migrate": "truffle migrate --reset",
-    "migrate:bsctestnet": "truffle migrate --reset --network bsctestnet",
-    "verify": "truffle run verify PancakeFactory --network bsctestnet"
+    "migrate:development": "env-cmd -f ./.env.development truffle migrate --reset --network development",
+    "migrate:bsctestnet": "env-cmd -f ./.env.bsctestnet truffle migrate --reset --network bsctestnet",
+    "verify:bsctestnet": "truffle run verify PancakeRouter01 --network bsctestnet"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.2.6",
-    "dotenv": "^8.2.0"
+    "@uniswap/lib": "^1.1.1",
+    "@uniswap/v2-core": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "fork-pancakeswap-core": "https://github.com/gitvani/fork-pancakeswap-core/tarball/master"
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "truffle-plugin-verify": "^0.5.7"
   }
 }

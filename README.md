@@ -1,5 +1,5 @@
-# fork-pancakeswap-core:
-This is PancakeSwap Factory which forked from https://github.com/pancakeswap/pancake-swap-core.
+# fork-pancakeswap-periphery:
+This is PancakeSwap Router which forked from https://github.com/pancakeswap/pancake-swap-periphery
 # Local Development:
 - Node>=10.
 - Truffle Suite (https://www.trufflesuite.com/)
