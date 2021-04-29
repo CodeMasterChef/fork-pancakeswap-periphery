@@ -1,8 +1,8 @@
 pragma solidity >=0.5.0;
 
-import 'fork-pancakeswap-core/contracts/interfaces/IPancakePair.sol';
+import 'fork-pancakeswap-core/contracts/interfaces/IPancakeFactory.sol';
 import '@uniswap/lib/contracts/libraries/FixedPoint.sol';
-
+import 'fork-pancakeswap-core/contracts/interfaces/IPancakePair.sol';
 // library with helper methods for oracles that are concerned with computing average prices
 library PancakeOracleLibrary {
     using FixedPoint for *;

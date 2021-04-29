@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-periphery/contracts/libraries/PancakeLibrary.sol": "PancakeLibrary"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-periphery/contracts/libraries/PancakeLibrary.sol": {
+			"keccak256": "0xfbc0292b17f963f658cc4c839fb0763761e40fc61d223b298b69ef860a1fe30e",
+			"urls": [
+				"bzz-raw://198d3c5149ae74e6eb156dfebc2ae2d0716c7aa43a26aad3e1ebf2b7ec11f778",
+				"dweb:/ipfs/QmSeQoy8oskM1xAFZeLHmT38tq7jpLPbwA49s8CVm6pNqz"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-periphery/contracts/libraries/SafeMath.sol": {
+			"keccak256": "0x27f0ea82f879b3b01387b583e6d9d0ec858dca3b22b0aad173f8fbda06e761e1",
+			"urls": [
+				"bzz-raw://0db9cf37793eb7035f0bfced36323d240f0212150009c39a3a108701d9b50b6c",
+				"dweb:/ipfs/QmUAdiG9XNcieXkKfiMB49zQqD34FbXFE15csV2KQzwEqg"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-periphery/node_modules/fork-pancakeswap-core/contracts/interfaces/IPancakeFactory.sol": {
+			"keccak256": "0x5aa3cb565f2793e4ae2b90e716aa5f5d38bf68f6f09caa62fe2395db27171faf",
+			"urls": [
+				"bzz-raw://9c8725ceb4ad2aca054ea558b23ba851cc573fcf1a0f2bc7257079004528f525",
+				"dweb:/ipfs/QmbHxnQ5bJ4o5tHoeFkXswayD5Y2tEwKAuh99RVbvjf67X"
+			]
+		},
+		"Users/macos/0-solidity-samples/fork-pancakeswap/fork-pancakeswap-periphery/node_modules/fork-pancakeswap-core/contracts/interfaces/IPancakePair.sol": {
+			"keccak256": "0xc432aeec5c038f15c3670ee6128ce41dbfa1f7a9979dc37b967213436ae77b33",
+			"urls": [
+				"bzz-raw://3bb06c5526b4691a4128f4f8f6a2ecca9af5f149848a2ec4cb60bd775d94568b",
+				"dweb:/ipfs/QmRYv5qt1TzSEPYhSXvfejncnGwZV5o6twDrTmtVg2Rx74"
+			]
+		}
+	},
+	"version": 1
+}

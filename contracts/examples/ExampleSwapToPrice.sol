@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import 'fork-pancakeswap-core/contracts/interfaces/IPancakePair.sol';
+import 'fork-pancakeswap-core/contracts/interfaces/IPancakeFactory.sol';
 import '@uniswap/lib/contracts/libraries/Babylonian.sol';
 import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
 
